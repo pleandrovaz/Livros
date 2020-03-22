@@ -89,7 +89,7 @@ this.setState({senha:evento.target.senha})
   
           <div id="main">
               <div className="header">
-                <h1>Cadastro de Autores</h1>
+                <h1>Cadastro de Autores para GIT</h1>
               </div>
               <div className="content" id="content">
                 <div className="pure-form pure-form-aligned">
@@ -99,11 +99,11 @@ this.setState({senha:evento.target.senha})
                       <input id="nome" type="text" name="nome" value={this.state.nome} onChange={this.setNome} />                  
                     </div>
                     <div className="pure-control-group">
-                      <label htmlFor="email">Email</label> 
+                      <label htmlFor="email">Email:</label> 
                       <input id="email" type="email" name="email" value={this.state.email} onChange={this.setEmail} />                  
                     </div>
                     <div className="pure-control-group">
-                      <label htmlFor="senha">Senha</label> 
+                      <label htmlFor="senha">Senha:</label> 
                       <input id="senha" type="password" name={this.state.senha} onChange={this.setSenha}  />                                      
                     </div>
                     <div className="pure-control-group">                                  
